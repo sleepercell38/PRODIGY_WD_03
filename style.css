@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   text-align: center;
+   background-image: url(tic-tac-toe-7737546_1280.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: black;
+   background-size: cover; 
+   
+}
+   
+
+.game{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+
+
+.container{
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin ;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 30px;
+    background-color:#634027 ;
+    font-weight:bolder ;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 5px 5px 5px;
+    color: black;
+
+}
+
+.box:hover{
+    
+    box-shadow: 10px 10px 20px grey;
+    background-color:#412e20;
+
+}
+h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(19, 19, 18);
+    text-shadow: 2px 3px 5px gray;
+}
+
+.msgcontainer{
+    display: none;
+}
+
+.msg{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px rgb(34, 34, 34);
+   
+}
+.reset{
+    height: 50px;
+    padding: 5px;
+    background-color:#634027 ;
+    font-weight:bolder ;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 5px 5px 5px;
+}
+.newgame{
+    height: 50px;
+    padding: 5px;
+    background-color:#634027 ;
+    font-weight:bolder ;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 5px 5px 5px;
+}
+.tie{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 5px rgb(34, 34, 34);
+}
+.ai-toggle {
+    height: 50px;
+    padding: 5px;
+    background-color: #634027;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 5px 5px 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.ai-toggle:hover {
+    background-color: #412e20;
+}
